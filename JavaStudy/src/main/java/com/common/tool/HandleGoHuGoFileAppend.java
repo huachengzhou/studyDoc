@@ -25,17 +25,14 @@ public class HandleGoHuGoFileAppend {
         String oldPath = null;
         String newPath = null;
         String hugoPath = "D:\\doc\\blog\\blob\\content\\post";
-
         hugo.setDraft(false);
         hugo.setTitle("我的博客");
         hugo.setDescription("测试博客");
         hugo.setAuthor("zch");
-        hugo.setDate("2018-03-01T16:01:23+08:00");
-        hugo.setLastmod("2018-03-01T16:01:23+08:00");
-
+        hugo.setDate(DateUtils.todayDate());
+        hugo.setLastmod(DateUtils.todayDate());
         oldPath = "E:\\studyDoc";
         newPath = "D:\\doc\\sfsdjsdj";
-
         List<String> extensions = new ArrayList<>(1);
         extensions.add("md");
         if (StringUtils.isBlank(oldPath) || StringUtils.isBlank(newPath)) {
@@ -79,7 +76,6 @@ public class HandleGoHuGoFileAppend {
 
     private static void replace(File file, String hugoPath, HandleGoHuGo base, File source) {
         if (file.isFile()) {
-
             try {
                 String string = FileUtils.readFileToString(file, "UTF-8");
                 HandleGoHuGo hugo = new HandleGoHuGo();
@@ -100,11 +96,16 @@ public class HandleGoHuGoFileAppend {
                     String baseName = FilenameUtils.getBaseName(file.getName());
                     boolean check = baseName.equalsIgnoreCase("index") || baseName.equalsIgnoreCase("README");
                     if (!check) {
-                        String path = String.format("%s%s%s%s%s", hugoPath, File.separator, UUID.randomUUID().toString(), ".", extension);
+                        LinkedHashSet<String> tags = hugo.getTags();
+                        List<String> strings = new ArrayList<>(tags.size());
+                        strings.add("uuid_t");
+                        tags.forEach(s -> strings.add(s));
+                        strings.add(baseName);
+                        String path = String.format("%s%s%s%s%s", hugoPath, File.separator, StringUtils.join(strings, "_"), ".", extension);
                         List<String> stringList = FileUtils.readLines(file);
                         if (CollectionUtils.isNotEmpty(stringList)) {
                             stringList = stringList.stream().filter(s -> !StringUtils.contains(s, "回到上一级")).collect(Collectors.toList());
-                            FileUtils.writeLines(new File(path),stringList,true);
+                            FileUtils.writeLines(new File(path), stringList, true);
                         }
                     }
                 }
