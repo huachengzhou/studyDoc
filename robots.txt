@@ -1,2 +1,0 @@
-User-agent: *
-Sitemap: https://huachengzhou.github.io/studyDoc/sitemap.xml
