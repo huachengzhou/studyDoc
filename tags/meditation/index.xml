@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Meditation on Jane-主题-Hugo</title>
+    <link>http://localhost:1313/tags/meditation/</link>
+    <description>Recent content in Meditation on Jane-主题-Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 14 Feb 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/meditation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>info</title>
+      <link>http://localhost:1313/post/uuid_t_meditation_info/</link>
+      <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/uuid_t_meditation_info/</guid>
+      <description>冥想 呼吸冥想法 1:坐好，后背挺直，然后闭上眼睛 2:关注你自己呼吸时的感觉,吸气，吸气，选择一个感受突出的地方，通常是你的鼻子或者耳朵、腹部然</description>
+    </item>
+    
+  </channel>
+</rss>
