@@ -24,7 +24,7 @@ public class HandleGoHuGoFileAppend {
         HandleGoHuGo hugo = new HandleGoHuGo();
         String oldPath = null;
         String newPath = null;
-        String hugoPath = "D:\\doc\\blog\\blob\\content\\post";
+        String hugoPath = "D:\\doc\\blog\\quickstart\\content\\post";
         hugo.setDraft(false);
         hugo.setTitle("我的博客");
         hugo.setDescription("测试博客");
@@ -32,7 +32,7 @@ public class HandleGoHuGoFileAppend {
         hugo.setDate(DateUtils.todayDate());
         hugo.setLastmod(DateUtils.todayDate());
         oldPath = "E:\\studyDoc";
-        newPath = "D:\\doc\\sfsdjsdj";
+        newPath = "D:\\doc\\test";
         List<String> extensions = new ArrayList<>(1);
         extensions.add("md");
         if (StringUtils.isBlank(oldPath) || StringUtils.isBlank(newPath)) {
@@ -130,10 +130,20 @@ public class HandleGoHuGoFileAppend {
             do {
                 fileParent = fileParent == null ? file.getParentFile() : fileParent;
                 if (!fileParent.getName().equals(source.getName())) {
-                    hugo.getTags().add(fileParent.getName());
+                    String baseName = FilenameUtils.getBaseName(fileParent.getName());
+                    String[] split = baseName.split("_");
+                    for (String s : split) {
+                        hugo.getTags().add(s);
+                    }
+//                    hugo.getTags().add(fileParent.getName());
                 }
                 if (!fileParent.getParentFile().getName().equals(source.getName())) {
-                    hugo.getCategories().add(fileParent.getParentFile().getName());
+                    String baseName = FilenameUtils.getBaseName(fileParent.getParentFile().getName());
+                    String[] split = baseName.split("_");
+                    for (String s : split) {
+                        hugo.getCategories().add(s);
+                    }
+//                    hugo.getCategories().add(fileParent.getParentFile().getName());
                 }
                 fileParent = fileParent.getParentFile();
             } while (sourcePath.equalsIgnoreCase(fileParent.getPath()));
@@ -142,7 +152,10 @@ public class HandleGoHuGoFileAppend {
         StringBuilder stringBuilder = new StringBuilder(8);
         stringBuilder.append("---").append(delimiter);
         LinkedHashMap<String, Object> map = new LinkedHashMap<>(8);
-        map.put("title", FilenameUtils.getBaseName(file.getName()));
+        String baseName = FilenameUtils.getBaseName(file.getName());
+        String[] split = baseName.split("_");
+        List<String> strings = Arrays.asList(split);
+        map.put("title", StringUtils.join(strings, " > "));
         map.put("date", hugo.getDate());
         map.put("draft", hugo.isDraft());
         map.put("tags", JSONObject.toJSONString(hugo.getTags()));
