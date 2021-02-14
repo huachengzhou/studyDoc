@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on Jane-主题-Hugo</title>
+    <link>https://huachengzhou.github.io/studyDoc/tags/hugo/</link>
+    <description>Recent content in Hugo on Jane-主题-Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 14 Feb 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://huachengzhou.github.io/studyDoc/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>tutorials1</title>
+      <link>https://huachengzhou.github.io/studyDoc/post/uuid_t_hugo_tutorials1/</link>
+      <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://huachengzhou.github.io/studyDoc/post/uuid_t_hugo_tutorials1/</guid>
+      <description>教程1 快速开始 步骤1：安装Hugo brew install hugo # or port install hugo 要验证新安装 hugo version 步骤2：建立新网站 hugo new site quickstart # 上面的代码将在名为的文件夹中创建一个新的Hug</description>
+    </item>
+    
+    <item>
+      <title>开始使用Hugo</title>
+      <link>https://huachengzhou.github.io/studyDoc/post/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8hugo/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://huachengzhou.github.io/studyDoc/post/%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8hugo/</guid>
+      <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture. Save it somewhere specific as we will be using it in the next step. More complete instructions are available at installing hugo Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now. Follow the following steps: Clone the hugo</description>
+    </item>
+    
+  </channel>
+</rss>

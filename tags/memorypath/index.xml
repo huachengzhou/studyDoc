@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Memorypath on Jane-主题-Hugo</title>
+    <link>https://huachengzhou.github.io/studyDoc/tags/memorypath/</link>
+    <description>Recent content in Memorypath on Jane-主题-Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 14 Feb 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://huachengzhou.github.io/studyDoc/tags/memorypath/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>memory</title>
+      <link>https://huachengzhou.github.io/studyDoc/post/uuid_t_memorypath_memory/</link>
+      <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://huachengzhou.github.io/studyDoc/post/uuid_t_memorypath_memory/</guid>
+      <description>记忆方法 提高记忆的关键，在于想象和创意 编故事有助于提高记忆力 通过编故事，再加上逻辑或地点（后者更多一些）; 编故事是加强了记忆桩之间的联系 记忆</description>
+    </item>
+    
+  </channel>
+</rss>

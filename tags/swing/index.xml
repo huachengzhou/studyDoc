@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Swing on Jane-主题-Hugo</title>
+    <link>https://huachengzhou.github.io/studyDoc/tags/swing/</link>
+    <description>Recent content in Swing on Jane-主题-Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 14 Feb 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://huachengzhou.github.io/studyDoc/tags/swing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Introduction</title>
+      <link>https://huachengzhou.github.io/studyDoc/post/uuid_t_swing_introduction/</link>
+      <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://huachengzhou.github.io/studyDoc/post/uuid_t_swing_introduction/</guid>
+      <description>Swing 类库结构 Swing 是新一代的图形界面工具。使用 Swing 来开发图形界面比 AWT 更加优秀，因为 Swing 是一种轻量级组件，它采用纯 Java 实现，不再依赖于本地平台的图形界面，</description>
+    </item>
+    
+  </channel>
+</rss>
