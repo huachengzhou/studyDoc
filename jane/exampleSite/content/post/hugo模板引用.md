@@ -1,5 +1,5 @@
 +++
-title = "(Hu)go Template Primer"
+title = "(Hu)go 模板引用"
 description = ""
 tags = [
     "go",
