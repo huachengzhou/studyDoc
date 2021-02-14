@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jsp on Jane-主题-Hugo</title>
-    <link>http://localhost:1313/tags/jsp/</link>
+    <link>https://huachengzhou.github.io/studyDoc/tags/jsp/</link>
     <description>Recent content in Jsp on Jane-主题-Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 14 Feb 2021 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/tags/jsp/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://huachengzhou.github.io/studyDoc/tags/jsp/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>字符串el表达式</title>
-      <link>http://localhost:1313/post/uuid_t_jsp_%E5%AD%97%E7%AC%A6%E4%B8%B2el%E8%A1%A8%E8%BE%BE%E5%BC%8F/</link>
+      <link>https://huachengzhou.github.io/studyDoc/post/uuid_t_jsp_%E5%AD%97%E7%AC%A6%E4%B8%B2el%E8%A1%A8%E8%BE%BE%E5%BC%8F/</link>
       <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/uuid_t_jsp_%E5%AD%97%E7%AC%A6%E4%B8%B2el%E8%A1%A8%E8%BE%BE%E5%BC%8F/</guid>
+      <guid>https://huachengzhou.github.io/studyDoc/post/uuid_t_jsp_%E5%AD%97%E7%AC%A6%E4%B8%B2el%E8%A1%A8%E8%BE%BE%E5%BC%8F/</guid>
       <description>字符串el表达式 fn:contains 判断字符串是否包含另外一个字符串 &amp;lt;c:if test=&amp;quot;${fn:contains(name, searchString)}&amp;quot;&amp;gt; fn:containsIgnoreCase 判断字符串是否包含另外一个字符串(大小写无关) &amp;lt;c:if test=&amp;quot;${fn:containsIgnoreCase(name, searchString)}&amp;quot;&amp;gt; fn:endsWith 判断字符串是否以另外字符串结</description>
     </item>
     
