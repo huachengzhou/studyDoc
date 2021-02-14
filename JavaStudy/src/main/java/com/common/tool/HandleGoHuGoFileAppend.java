@@ -14,6 +14,7 @@ import java.io.File;
 import java.io.FileFilter;
 import java.io.IOException;
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class HandleGoHuGoFileAppend {
     private final static CharSequence delimiter = "\r";
@@ -94,9 +95,18 @@ public class HandleGoHuGoFileAppend {
                 String newString = new StringJoiner(delimiter).add(headText).add(string).toString();
                 FileUtils.write(file, newString, false);
                 if (StringUtils.isNotBlank(hugoPath)) {
-                    String path = String.format("%s%s%s", hugoPath, File.separator, file.getName());
-
-                    FileUtils.copyFile(file, new File(path));
+                    //file 不能是index和 README
+                    String extension = FilenameUtils.getExtension(file.getName());
+                    String baseName = FilenameUtils.getBaseName(file.getName());
+                    boolean check = baseName.equalsIgnoreCase("index") || baseName.equalsIgnoreCase("README");
+                    if (!check) {
+                        String path = String.format("%s%s%s%s%s", hugoPath, File.separator, UUID.randomUUID().toString(), ".", extension);
+                        List<String> stringList = FileUtils.readLines(file);
+                        if (CollectionUtils.isNotEmpty(stringList)) {
+                            stringList = stringList.stream().filter(s -> !StringUtils.contains(s, "回到上一级")).collect(Collectors.toList());
+                            FileUtils.writeLines(new File(path),stringList,true);
+                        }
+                    }
                 }
             } catch (IOException e) {
                 logger.error(e.getMessage(), e);
@@ -120,15 +130,18 @@ public class HandleGoHuGoFileAppend {
                 fileParent = fileParent == null ? file.getParentFile() : fileParent;
                 if (!fileParent.getName().equals(source.getName())) {
                     hugo.getTags().add(fileParent.getName());
-                    hugo.getCategories().add(fileParent.getName());
+                }
+                if (!fileParent.getParentFile().getName().equals(source.getName())) {
+                    hugo.getCategories().add(fileParent.getParentFile().getName());
                 }
                 fileParent = fileParent.getParentFile();
             } while (sourcePath.equalsIgnoreCase(fileParent.getPath()));
         }
+        hugo.getCategories().add("index");
         StringBuilder stringBuilder = new StringBuilder(8);
         stringBuilder.append("---").append(delimiter);
         LinkedHashMap<String, Object> map = new LinkedHashMap<>(8);
-        map.put("title", hugo.getTitle());
+        map.put("title", FilenameUtils.getBaseName(file.getName()));
         map.put("date", hugo.getDate());
         map.put("draft", hugo.isDraft());
         map.put("tags", JSONObject.toJSONString(hugo.getTags()));
@@ -143,7 +156,6 @@ public class HandleGoHuGoFileAppend {
             } else if (StringUtils.contains(String.valueOf(o), "[")) {
                 stringBuilder.append(o);
             } else {
-//                stringBuilder.append('"').append(o).append('"');
                 stringBuilder.append("'").append(o).append("'");
             }
             stringBuilder.append(delimiter);
