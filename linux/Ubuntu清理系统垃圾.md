@@ -35,4 +35,4 @@ sudo apt-get remove 内核文件名（例如：linux-image-2.6.27-2-generic）
 没有下载完的在
 /var/cache/apt/archives/partial
 
-##  [回到linux首页](index.md)
+##  [回到上一级](index.md)

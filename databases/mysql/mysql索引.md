@@ -18,4 +18,4 @@
 > 默认情况下，MEMORY 存储引擎使用 HASH 索引，但也支持 BTREE 索引
 
 
-## [回到mysql主页](./index.md)
+## [回到上一级](./index.md)

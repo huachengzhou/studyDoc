@@ -504,4 +504,4 @@ PS E:\temp> rd cc
 D:\ter>del  *.txt ;
 ```
 
-# [回到上级目录](./index.md)
+# [回到上一级](./index.md)

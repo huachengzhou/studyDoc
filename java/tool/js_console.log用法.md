@@ -143,4 +143,4 @@ console.log("%d年%d月%d日",2011,3,26);
 
 
 
-## [回到Java首页](../index.md)
+## [回到上一级](../index.md)

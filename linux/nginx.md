@@ -56,7 +56,7 @@ Welcome to nginx!
  
      其它所有的非backup机器down或者忙的时候，请求backup机器。所以这台机器压力会最轻。
      
-##  [回到linux首页](index.md)
+
 
 ```
 service nginx start
@@ -66,3 +66,5 @@ service nginx stop
 nginx
 ```
  
+ 
+ ##  [回到上一级](index.md)

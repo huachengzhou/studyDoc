@@ -13,4 +13,4 @@ ff02::2 ip6-allrouters
 #pmcc dev
 127.0.0.1 dev.pmcc.com
 
-##  [回到linux首页](index.md)
+##  [回到上一级](index.md)

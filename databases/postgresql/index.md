@@ -13,7 +13,7 @@
 
 
 
-### [postgresql用户与权限](./create用户与权限.md)
+### [postgresql用户与权限](postgresql_create用户与权限.md)
 
 
 
@@ -43,4 +43,4 @@
 
 
 
-## [回到databases主页](../index.md)
+## [回到上一级](../index.md)

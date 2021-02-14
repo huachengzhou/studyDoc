@@ -21,4 +21,4 @@ STEP 4：在DISKPART命令提示符下，键入“convert dynamic”命令并按
 
 ```
 
-# [回到上级目录](./index.md)
+# [回到上一级](./index.md)

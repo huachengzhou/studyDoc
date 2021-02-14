@@ -73,4 +73,4 @@ CREATE TABLE user_test(
 
 注：满足最左前缀查询条件的顺序与索引列的顺序无关，如：（city, user_name）、（age, city, user_name）
 
-## [回到mysql主页](./index.md)
+## [回到上一级](./index.md)

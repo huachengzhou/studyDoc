@@ -7,4 +7,4 @@
 + IntelliJ IDEA Key Bindings for Visual Studio Code (这个插件可以使得intellij的快捷键自动设置为vs code快捷键)
 
 
-## [回到解决问题](../index.md)
+## [回到上一级](../index.md)

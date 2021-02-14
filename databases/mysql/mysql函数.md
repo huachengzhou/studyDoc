@@ -70,4 +70,4 @@ insert into salary values(1,1000),(2,2000), (3,3000),(4,4000),(5,5000), (1,null)
 + length() 获取字符串长度 select length(''+uuid_short()) as uuidShort , length(uuid()) 这里使用了mysql的uuid
 
 
-## [回到mysql主页](./index.md)
+## [回到上一级](./index.md)

@@ -1,9 +1,9 @@
 
 
 
-### [idea](./idea/index.md)
+### [idea](idea/idea.md)
 
-### [git](./git/index.md)
+### [git](git/git.md)
 
 ### [maven](./maven/index.md)
 
@@ -16,4 +16,4 @@
 
 
 
-# [回到首页](../README.md)
+# [回到上一级](../README.md)

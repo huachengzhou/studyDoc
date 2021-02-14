@@ -2,7 +2,7 @@
 
 # web技术栈
 
-#  [**vue**](vue/index.md)
+#  [**vue**](vue/vue_index.md)
 
 #  [**hogo教程**](hugo/index.md)
 

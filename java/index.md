@@ -11,9 +11,9 @@ java语法，java多线程与并发,jdbc,设计模式
 ![A2](img/arch-overview-2-2.png)
 ![A3](img/java-concurrent-overview-1.png)
 
-## [java基础总结大全](java基础总结大全.md)
+## [java基础总结大全](java_java基础总结大全.md)
 
-## [Java的程序结构](programStructure.md)
+## [Java的程序结构](java_programStructure.md)
 
 ## [多线程](./多线程/index.md)
 
@@ -37,4 +37,4 @@ java语法，java多线程与并发,jdbc,设计模式
 ## [Jsoup](./tool/jsoup.md)
 
 
-# [回到首页](../README.md)
+# [回到上一级](../README.md)
