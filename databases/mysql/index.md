@@ -18,7 +18,7 @@
 
 ### [mysql查询](./mysql查询.md)
 
-### [网易云课堂MySQL微专业学习笔记](网易云课堂MySQL/网易云课堂MySQL微专业学习笔记.md)
+### [网易云课堂MySQL微专业学习笔记](MySQL_163课堂/网易云课堂MySQL微专业学习笔记.md)
 
 ### [mysql必知会笔记](./mysql必知会/readme.md)
 

@@ -2,7 +2,7 @@
 
 #  [**文档目录中心**](https://huachengzhou.github.io/studyDocument/)
 
-## [**Java技术栈体系**](./java/index.md)
+## [**Java技术栈体系**](java/javaReadme.md)
 
 ##  [**算法**](./algorithm/index.md)
 
