@@ -22,8 +22,7 @@ public class HandleGoHuGoFileAppend {
 
     public static void main(String[] args) {
         HandleGoHuGo hugo = new HandleGoHuGo();
-        String oldPath = null;
-        String newPath = null;
+        String oldPath = "E:\\studyDoc";
         String hugoPath = "D:\\doc\\blog\\quickstart\\content\\post";
         hugo.setDraft(false);
         hugo.setTitle("我的博客");
@@ -31,48 +30,45 @@ public class HandleGoHuGoFileAppend {
         hugo.setAuthor("zch");
         hugo.setDate(DateUtils.todayDate());
         hugo.setLastmod(DateUtils.todayDate());
-        oldPath = "E:\\studyDoc";
-        newPath = "D:\\doc\\test";
         List<String> extensions = new ArrayList<>(1);
         extensions.add("md");
-        if (StringUtils.isBlank(oldPath) || StringUtils.isBlank(newPath)) {
-            return;
-        }
         try {
-            copy(oldPath, newPath, hugoPath, hugo, extensions);
+            String newPath = FileUtils.getTempDirectoryPath() + UUID.randomUUID().toString().substring(0, 7) + File.separator;
+            File file = new File(newPath);
+            FileFilter filter = new FileFilter() {
+                @Override
+                public boolean accept(File f) {
+                    if (f.isFile()) {
+                        return extensions.contains(FilenameUtils.getExtension(f.getName()));
+                    } else {
+                        if (".git".equals(f.getName())) {
+                            return false;
+                        }
+                        if (".github".equals(f.getName())) {
+                            return false;
+                        }
+                        if (".idea".equals(f.getName())) {
+                            return false;
+                        }
+                        if ("zch_diary".equals(f.getName())) {
+                            return false;
+                        }
+                        if (StringUtils.contains(f.getName(), ".")) {
+                            return false;
+                        }
+                    }
+                    return true;
+                }
+            };
+            FileUtils.copyDirectory(new File(oldPath), file, filter, false);
+            replace(file, hugoPath, hugo, file);
+            FileUtils.deleteDirectory(file);
             System.out.println("end!");
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
 
-    private static void copy(String oldPath, String newPath, String hugoPath, HandleGoHuGo huGo, List<String> extensions) throws Exception {
-        File file = new File(newPath);
-        FileFilter filter = new FileFilter() {
-            @Override
-            public boolean accept(File f) {
-                if (f.isFile()) {
-                    return extensions.contains(FilenameUtils.getExtension(f.getName()));
-                } else {
-                    if (".git".equals(f.getName())) {
-                        return false;
-                    }
-                    if (".github".equals(f.getName())) {
-                        return false;
-                    }
-                    if (".idea".equals(f.getName())) {
-                        return false;
-                    }
-                    if (StringUtils.contains(f.getName(), ".")) {
-                        return false;
-                    }
-                }
-                return true;
-            }
-        };
-        FileUtils.copyDirectory(new File(oldPath), file, filter, false);
-        replace(file, hugoPath, huGo, file);
-    }
 
     private static void replace(File file, String hugoPath, HandleGoHuGo base, File source) {
         if (file.isFile()) {
