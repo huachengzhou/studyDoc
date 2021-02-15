@@ -1,12 +1,12 @@
 ---
 title : 'Ubuntu清理系统垃圾'
-date : '2021-02-14'
+date : '2021-02-15'
 draft : false
 tags : ["linux"]
-categories : ["doc","index"]
+categories : ["Temp","index"]
 author : 'zch'
 description : '测试博客'
-lastmod : '2021-02-14'
+lastmod : '2021-02-15'
 ---
 
 1，非常有用的清理命令：
@@ -46,4 +46,3 @@ sudo apt-get remove 内核文件名（例如：linux-image-2.6.27-2-generic）
 没有下载完的在
 /var/cache/apt/archives/partial
 
-##  [回到linux首页](index.md)

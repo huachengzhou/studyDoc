@@ -1,12 +1,12 @@
 ---
 title : 'IO'
-date : '2021-02-14'
+date : '2021-02-15'
 draft : false
 tags : ["tool"]
 categories : ["java","index"]
 author : 'zch'
 description : '测试博客'
-lastmod : '2021-02-14'
+lastmod : '2021-02-15'
 ---
 
 
@@ -230,4 +230,3 @@ byte[] toByteArray = IOUtils.toByteArray(new URL("https://www.bootcss.com/"));
 
 
 
-## [回到上级](../index.md)

@@ -1,12 +1,12 @@
 ---
-title : 'DOS_file'
-date : '2021-02-14'
+title : 'DOS > file'
+date : '2021-02-15'
 draft : false
 tags : ["windows"]
-categories : ["doc","index"]
+categories : ["Temp","index"]
 author : 'zch'
 description : '测试博客'
-lastmod : '2021-02-14'
+lastmod : '2021-02-15'
 ---
 
 
@@ -515,4 +515,3 @@ PS E:\temp> rd cc
 D:\ter>del  *.txt ;
 ```
 
-# [回到上级目录](./index.md)

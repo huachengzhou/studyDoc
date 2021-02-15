@@ -1,12 +1,12 @@
 ---
-title : 'idea导入项目出现Unable_to_import_maven_project_See_logs_for_details提示'
-date : '2021-02-14'
+title : 'idea导入项目出现Unable > to > import > maven > project > See > logs > for > details提示'
+date : '2021-02-15'
 draft : false
 tags : ["maven"]
 categories : ["problem","index"]
 author : 'zch'
 description : '测试博客'
-lastmod : '2021-02-14'
+lastmod : '2021-02-15'
 ---
 
 
@@ -49,16 +49,15 @@ lastmod : '2021-02-14'
 
 
 
-## [回到maven](index.md)
 ---
-title : 'idea导入项目出现Unable_to_import_maven_project_See_logs_for_details提示'
-date : '2021-02-14'
+title : 'idea导入项目出现Unable > to > import > maven > project > See > logs > for > details提示'
+date : '2021-02-15'
 draft : false
 tags : ["maven"]
 categories : ["problem","index"]
 author : 'zch'
 description : '测试博客'
-lastmod : '2021-02-14'
+lastmod : '2021-02-15'
 ---
 
 
@@ -101,4 +100,3 @@ lastmod : '2021-02-14'
 
 
 
-## [回到maven](index.md)

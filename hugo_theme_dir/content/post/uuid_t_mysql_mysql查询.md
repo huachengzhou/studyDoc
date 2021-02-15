@@ -1,12 +1,12 @@
 ---
 title : 'mysql查询'
-date : '2021-02-14'
+date : '2021-02-15'
 draft : false
 tags : ["mysql"]
 categories : ["databases","index"]
 author : 'zch'
 description : '测试博客'
-lastmod : '2021-02-14'
+lastmod : '2021-02-15'
 ---
 
 
@@ -84,4 +84,3 @@ CREATE TABLE user_test(
 
 注：满足最左前缀查询条件的顺序与索引列的顺序无关，如：（city, user_name）、（age, city, user_name）
 
-## [回到mysql主页](./index.md)

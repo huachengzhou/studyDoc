@@ -1,12 +1,12 @@
 ---
 title : 'dom4j'
-date : '2021-02-14'
+date : '2021-02-15'
 draft : false
 tags : ["tool"]
 categories : ["java","index"]
 author : 'zch'
 description : '测试博客'
-lastmod : '2021-02-14'
+lastmod : '2021-02-15'
 ---
 
 # dom4j
@@ -62,4 +62,3 @@ lastmod : '2021-02-14'
 + //title | //price 选取所有文档中的 title 和 price 元素。
 + /bookstore/book/title|//price 选取所有属于 bookstore 元素的 book 元素的title 元素，以及文档中所有的 price 元素。
   
-## [回到Java首页](../index.md)

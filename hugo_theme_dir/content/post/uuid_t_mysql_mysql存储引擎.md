@@ -1,12 +1,12 @@
 ---
 title : 'mysql存储引擎'
-date : '2021-02-14'
+date : '2021-02-15'
 draft : false
 tags : ["mysql"]
 categories : ["databases","index"]
 author : 'zch'
 description : '测试博客'
-lastmod : '2021-02-14'
+lastmod : '2021-02-15'
 ---
 
 # MySQL 存储引擎概述
@@ -62,4 +62,3 @@ ALTER TABLE tbl_name IMPORT TABLESPACE;
 > Merge存储引擎是一组MyISAM表的组合，这些MyISAM表必须结构完全相同，merge表本身并没有数据，对merge类型的表可以进行查询，更新，删除操作，这些操作实际上是对内部的MyISAM表进行的。
 
 
-## [回到mysql主页](./index.md)

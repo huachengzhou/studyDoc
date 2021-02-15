@@ -1,12 +1,12 @@
 ---
 title : 'study.web'
-date : '2021-02-14'
+date : '2021-02-15'
 draft : false
 tags : ["study"]
-categories : ["doc","index"]
+categories : ["Temp","index"]
 author : 'zch'
 description : '测试博客'
-lastmod : '2021-02-14'
+lastmod : '2021-02-15'
 ---
 
 
@@ -123,4 +123,3 @@ lastmod : '2021-02-14'
 
 
 
-# [回到上级目录](./index.md)

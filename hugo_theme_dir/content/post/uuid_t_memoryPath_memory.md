@@ -1,12 +1,12 @@
 ---
 title : 'memory'
-date : '2021-02-14'
+date : '2021-02-15'
 draft : false
 tags : ["memoryPath"]
 categories : ["study","index"]
 author : 'zch'
 description : '测试博客'
-lastmod : '2021-02-14'
+lastmod : '2021-02-15'
 ---
 
 # 记忆方法
@@ -215,4 +215,3 @@ toe nail (脚趾甲)
 
 
 
-# [回到上级目录](../index.md)

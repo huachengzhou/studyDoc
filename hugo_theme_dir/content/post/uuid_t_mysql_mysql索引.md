@@ -1,12 +1,12 @@
 ---
 title : 'mysql索引'
-date : '2021-02-14'
+date : '2021-02-15'
 draft : false
 tags : ["mysql"]
 categories : ["databases","index"]
 author : 'zch'
 description : '测试博客'
-lastmod : '2021-02-14'
+lastmod : '2021-02-15'
 ---
 
 ### 索引
@@ -29,4 +29,3 @@ lastmod : '2021-02-14'
 > 默认情况下，MEMORY 存储引擎使用 HASH 索引，但也支持 BTREE 索引
 
 
-## [回到mysql主页](./index.md)

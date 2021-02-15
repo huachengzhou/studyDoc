@@ -1,12 +1,12 @@
 ---
 title : 'useMath'
-date : '2021-02-14'
+date : '2021-02-15'
 draft : false
 tags : ["java"]
-categories : ["doc","index"]
+categories : ["Temp","index"]
 author : 'zch'
 description : '测试博客'
-lastmod : '2021-02-14'
+lastmod : '2021-02-15'
 ---
 
 
@@ -37,4 +37,3 @@ lastmod : '2021-02-14'
 
 
 
-### [回到Java的程序结构](programStructure.md)

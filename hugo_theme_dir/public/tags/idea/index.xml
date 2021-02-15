@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Idea on Jane-主题-Hugo</title>
+    <link>https://huachengzhou.github.io/studyDocument/tags/idea/</link>
+    <description>Recent content in Idea on Jane-主题-Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 14 Feb 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://huachengzhou.github.io/studyDocument/tags/idea/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>idea</title>
+      <link>https://huachengzhou.github.io/studyDocument/post/uuid_t_idea_idea/</link>
+      <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://huachengzhou.github.io/studyDocument/post/uuid_t_idea_idea/</guid>
+      <description>idea 解决working directory 设置到 target ``` test ng D:\IdeaProjects\java-se-study run config $MODULE_DIR$ ```</description>
+    </item>
+    
+  </channel>
+</rss>

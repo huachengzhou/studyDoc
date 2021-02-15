@@ -1,12 +1,12 @@
 ---
 title : 'linux命令'
-date : '2021-02-14'
+date : '2021-02-15'
 draft : false
 tags : ["linux"]
-categories : ["doc","index"]
+categories : ["Temp","index"]
 author : 'zch'
 description : '测试博客'
-lastmod : '2021-02-14'
+lastmod : '2021-02-15'
 ---
 
 # linux命令
@@ -65,4 +65,3 @@ lastmod : '2021-02-14'
 
 
 
-##  [回到linux首页](index.md)

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docs on Jane-主题-Hugo</title>
+    <link>https://huachengzhou.github.io/studyDocument/categories/docs/</link>
+    <description>Recent content in Docs on Jane-主题-Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 04 Mar 2019 16:01:23 +0800</lastBuildDate>
+    
+	<atom:link href="https://huachengzhou.github.io/studyDocument/categories/docs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>数学预览</title>
+      <link>https://huachengzhou.github.io/studyDocument/post/%E6%95%B0%E5%AD%A6%E9%A2%84%E8%A7%88/</link>
+      <pubDate>Mon, 04 Mar 2019 16:01:23 +0800</pubDate>
+      
+      <guid>https://huachengzhou.github.io/studyDocument/post/%E6%95%B0%E5%AD%A6%E9%A2%84%E8%A7%88/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.intmath.com/cg5/katex-mathjax-comparison.php&#34;&gt;KaTeX and MathJax Comparison Demo, currently processed as KaTex&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>短码预览</title>
+      <link>https://huachengzhou.github.io/studyDocument/post/%E7%9F%AD%E7%A0%81%E9%A2%84%E8%A7%88/</link>
+      <pubDate>Sun, 04 Mar 2018 16:01:23 +0800</pubDate>
+      
+      <guid>https://huachengzhou.github.io/studyDocument/post/%E7%9F%AD%E7%A0%81%E9%A2%84%E8%A7%88/</guid>
+      <description>&lt;h2 id=&#34;what-a-shortcode-is&#34;&gt;What a Shortcode is&lt;/h2&gt;
+
+&lt;p&gt;Hugo loves Markdown because of its simple content format, but there are times when Markdown falls short. Often, content authors are forced to add raw HTML (e.g., video &lt;code&gt;&amp;lt;iframes&amp;gt;&lt;/code&gt;) to Markdown content. We think this contradicts the beautiful simplicity of Markdown&amp;rsquo;s syntax.&lt;/p&gt;
+
+&lt;p&gt;Hugo created &lt;strong&gt;shortcodes&lt;/strong&gt; to circumvent these limitations.&lt;/p&gt;
+
+&lt;p&gt;A shortcode is a simple snippet inside a content file that Hugo will render using a predefined template. Note that shortcodes will not work in template files. If you need the type of drop-in functionality that shortcodes provide but in a template, you most likely want a [partial template][partials] instead.&lt;/p&gt;
+
+&lt;p&gt;In addition to cleaner Markdown, shortcodes can be updated any time to reflect new classes, techniques, or standards. At the point of site generation, Hugo shortcodes will easily merge in your changes. You avoid a possibly complicated search and replace operation.&lt;/p&gt;
+
+&lt;p&gt;More details: &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/&#34;&gt;https://gohugo.io/content-management/shortcodes/&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>图片预览</title>
+      <link>https://huachengzhou.github.io/studyDocument/post/%E5%9B%BE%E7%89%87%E9%A2%84%E8%A7%88/</link>
+      <pubDate>Sat, 03 Mar 2018 16:01:23 +0800</pubDate>
+      
+      <guid>https://huachengzhou.github.io/studyDocument/post/%E5%9B%BE%E7%89%87%E9%A2%84%E8%A7%88/</guid>
+      <description>&lt;p&gt;Thanks for &lt;a href=&#34;https://github.com/liwenyip/hugo-easy-gallery&#34;&gt;liwenyip/hugo-easy-gallery&lt;/a&gt; &amp;amp; &lt;a href=&#34;https://github.com/xianmin/hugo-theme-jane/pull/48&#34;&gt;Zebradil · Pull Request #48&lt;/a&gt; .&lt;/p&gt;
+
+&lt;p&gt;Now, we could use &lt;code&gt;{{&amp;lt; gallery &amp;gt;}}&lt;/code&gt; shortcode in hugo-theme-jane.&lt;/p&gt;
+
+&lt;h2 id=&#34;normal-image&#34;&gt;Normal Image&lt;/h2&gt;
+
+&lt;p&gt;This is an image in &lt;code&gt;static/image&lt;/code&gt; folder.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;![This is an image in `static/image` folder.](/image/example.jpg)
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
+    <item>
+      <title>短码公示</title>
+      <link>https://huachengzhou.github.io/studyDocument/post/%E7%9F%AD%E7%A0%81%E5%85%AC%E7%A4%BA/</link>
+      <pubDate>Sat, 03 Mar 2018 16:01:23 +0800</pubDate>
+      
+      <guid>https://huachengzhou.github.io/studyDocument/post/%E7%9F%AD%E7%A0%81%E5%85%AC%E7%A4%BA/</guid>
+      <description>normal use Note example: {{% notice note %}} A notice disclaimer {{% /notice %}} Result: note A notice disclaimer You could custom title : {{% notice note 笔记 %}} A notice disclaimer {{% /notice %}} 笔记 A notice disclaimer tip {{% notice tip %}} A tip disclaimer {{% /tip %}} tip A tip disclaimer info {{% notice info %}} A info disclaimer {{% /notice %}} info An information</description>
+    </item>
+    
+    <item>
+      <title>文档脚本引用</title>
+      <link>https://huachengzhou.github.io/studyDocument/post/%E6%96%87%E6%A1%A3%E8%84%9A%E6%9C%AC%E5%BC%95%E7%94%A8/</link>
+      <pubDate>Thu, 01 Mar 2018 16:01:23 +0800</pubDate>
+      
+      <guid>https://huachengzhou.github.io/studyDocument/post/%E6%96%87%E6%A1%A3%E8%84%9A%E6%9C%AC%E5%BC%95%E7%94%A8/</guid>
+      <description>&lt;p&gt;Hugo-theme-jane optimized for footnote. When you mouse hover the footnote&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:example&#34;&gt;&lt;a href=&#34;#fn:example&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; , footnote content will be displayed.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

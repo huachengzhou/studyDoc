@@ -1,12 +1,12 @@
 ---
 title : 'Linux下设置和查看环境变量'
-date : '2021-02-14'
+date : '2021-02-15'
 draft : false
 tags : ["linux"]
-categories : ["doc","index"]
+categories : ["Temp","index"]
 author : 'zch'
 description : '测试博客'
-lastmod : '2021-02-14'
+lastmod : '2021-02-15'
 ---
 
 
@@ -67,5 +67,4 @@ MAIL　当前用户的邮件存放目录
 PS1　基本提示符，对于root用户是#，对于普通用户是$
 
 
-##  [回到linux首页](index.md)
 

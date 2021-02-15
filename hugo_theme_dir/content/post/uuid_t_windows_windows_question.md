@@ -1,12 +1,12 @@
 ---
-title : 'windows_question'
-date : '2021-02-14'
+title : 'windows > question'
+date : '2021-02-15'
 draft : false
 tags : ["windows"]
-categories : ["doc","index"]
+categories : ["Temp","index"]
 author : 'zch'
 description : '测试博客'
-lastmod : '2021-02-14'
+lastmod : '2021-02-15'
 ---
 
 
@@ -32,4 +32,3 @@ STEP 4：在DISKPART命令提示符下，键入“convert dynamic”命令并按
 
 ```
 
-# [回到上级目录](./index.md)

@@ -1,12 +1,12 @@
 ---
 title : 'Notepad++安装'
-date : '2021-02-14'
+date : '2021-02-15'
 draft : false
 tags : ["linux"]
-categories : ["doc","index"]
+categories : ["Temp","index"]
 author : 'zch'
 description : '测试博客'
-lastmod : '2021-02-14'
+lastmod : '2021-02-15'
 ---
 
 Notepad++是一套非常有特色的自由软件的纯文字编辑器(许可证:GPL)。有完整的中文化接口及支持多国语言编写的功能(UTF8 技术)。
@@ -42,4 +42,3 @@ sudo add-apt-repository --remove ppa:notepadqq-team/notepadqq
 
 
 
-##  [回到linux首页](index.md)

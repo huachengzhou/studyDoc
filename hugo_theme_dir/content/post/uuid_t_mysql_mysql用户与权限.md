@@ -1,12 +1,12 @@
 ---
 title : 'mysql用户与权限'
-date : '2021-02-14'
+date : '2021-02-15'
 draft : false
 tags : ["mysql"]
 categories : ["databases","index"]
 author : 'zch'
 description : '测试博客'
-lastmod : '2021-02-14'
+lastmod : '2021-02-15'
 ---
 
 > mysql.version=5.7 (必须注意版本)
@@ -70,4 +70,3 @@ show grants for 'blake'@'localhost';
 ```
 
 
-## [回到mysql主页](./index.md)

@@ -1,12 +1,12 @@
 ---
 title : 'host映射'
-date : '2021-02-14'
+date : '2021-02-15'
 draft : false
 tags : ["linux"]
-categories : ["doc","index"]
+categories : ["Temp","index"]
 author : 'zch'
 description : '测试博客'
-lastmod : '2021-02-14'
+lastmod : '2021-02-15'
 ---
 
 sudo vi hosts
@@ -24,4 +24,3 @@ ff02::2 ip6-allrouters
 #pmcc dev
 127.0.0.1 dev.pmcc.com
 
-##  [回到linux首页](index.md)

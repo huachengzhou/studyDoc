@@ -1,12 +1,12 @@
 ---
 title : '压缩算法'
-date : '2021-02-14'
+date : '2021-02-15'
 draft : false
 tags : ["algorithm"]
-categories : ["doc","index"]
+categories : ["Temp","index"]
 author : 'zch'
 description : '测试博客'
-lastmod : '2021-02-14'
+lastmod : '2021-02-15'
 ---
 
 ﻿## 压缩算法

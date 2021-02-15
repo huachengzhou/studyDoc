@@ -1,12 +1,12 @@
 ---
-title : 'js_console.log用法'
-date : '2021-02-14'
+title : 'js > console.log用法'
+date : '2021-02-15'
 draft : false
 tags : ["tool"]
 categories : ["java","index"]
 author : 'zch'
 description : '测试博客'
-lastmod : '2021-02-14'
+lastmod : '2021-02-15'
 ---
 
 # Console 对象方法
@@ -154,4 +154,3 @@ console.log("%d年%d月%d日",2011,3,26);
 
 
 
-## [回到Java首页](../index.md)

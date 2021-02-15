@@ -1,12 +1,12 @@
 ---
 title : 'ubuntu安装chmsee'
-date : '2021-02-14'
+date : '2021-02-15'
 draft : false
 tags : ["linux"]
-categories : ["doc","index"]
+categories : ["Temp","index"]
 author : 'zch'
 description : '测试博客'
-lastmod : '2021-02-14'
+lastmod : '2021-02-15'
 ---
 
 垃圾的ubuntu 14.04 又一次去掉一些特别好用的软件,  官方给的解释是怕破坏他们系统. 只想说一句 我去年买了个本.

@@ -1,12 +1,12 @@
 ---
-title : 'DOS_network'
-date : '2021-02-14'
+title : 'DOS > network'
+date : '2021-02-15'
 draft : false
 tags : ["windows"]
-categories : ["doc","index"]
+categories : ["Temp","index"]
 author : 'zch'
 description : '测试博客'
-lastmod : '2021-02-14'
+lastmod : '2021-02-15'
 ---
 
 
@@ -799,4 +799,3 @@ PS C:\Users\noatn> netstat -n
   TCP    192.168.31.208:4054    13.107.3.254:443       ESTABLISHED
 ```
 
-# [回到上级目录](./index.md)

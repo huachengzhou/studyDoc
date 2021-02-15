@@ -1,12 +1,12 @@
 ---
 title : 'mysql函数'
-date : '2021-02-14'
+date : '2021-02-15'
 draft : false
 tags : ["mysql"]
 categories : ["databases","index"]
 author : 'zch'
 description : '测试博客'
-lastmod : '2021-02-14'
+lastmod : '2021-02-15'
 ---
 
 # 日期函数
@@ -81,4 +81,3 @@ insert into salary values(1,1000),(2,2000), (3,3000),(4,4000),(5,5000), (1,null)
 + length() 获取字符串长度 select length(''+uuid_short()) as uuidShort , length(uuid()) 这里使用了mysql的uuid
 
 
-## [回到mysql主页](./index.md)

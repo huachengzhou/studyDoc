@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Index on Jane-主题-Hugo</title>
+    <link>https://huachengzhou.github.io/studyDocument/categories/index/</link>
+    <description>Recent content in Index on Jane-主题-Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 06 Mar 2018 16:01:23 +0800</lastBuildDate>
+    
+	<atom:link href="https://huachengzhou.github.io/studyDocument/categories/index/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jane 主题预览</title>
+      <link>https://huachengzhou.github.io/studyDocument/post/jane%E4%B8%BB%E9%A2%98%E9%A2%84%E8%A7%88/</link>
+      <pubDate>Tue, 06 Mar 2018 16:01:23 +0800</pubDate>
+      
+      <guid>https://huachengzhou.github.io/studyDocument/post/jane%E4%B8%BB%E9%A2%98%E9%A2%84%E8%A7%88/</guid>
+      <description>Jane 是一个专注于阅读体验的 Hugo 主题。最早的版本基于hugo-theme-even，在它的基础上进行了重新改造。简约、可定制性强。主要特色：响应式</description>
+    </item>
+    
+    <item>
+      <title>1ch</title>
+      <link>https://huachengzhou.github.io/studyDocument/post/uuid_t_%E4%BF%A1%E6%81%AF%E5%92%A8%E8%AF%A2_1ch/</link>
+      <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://huachengzhou.github.io/studyDocument/post/uuid_t_%E4%BF%A1%E6%81%AF%E5%92%A8%E8%AF%A2_1ch/</guid>
+      <description>信息系统概述 信息 什么是社会的标志 答:信息是当今社会的标志 一:信息的含义 (填空题，单选题，简答题) 1:) 信息的存在不以主体(如人、生物或机器系统)</description>
+    </item>
+    
+    <item>
+      <title>2ch</title>
+      <link>https://huachengzhou.github.io/studyDocument/post/uuid_t_%E4%BF%A1%E6%81%AF%E5%92%A8%E8%AF%A2_2ch/</link>
+      <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://huachengzhou.github.io/studyDocument/post/uuid_t_%E4%BF%A1%E6%81%AF%E5%92%A8%E8%AF%A2_2ch/</guid>
+      <description>信息系统开发方法论 问信息系统开发方法有哪些 生命周期法、原型法、结构化方法、面向对象方法、构件法、面向服务方法、敏捷开发方法 概述 1 信息系统开发</description>
+    </item>
+    
+    <item>
+      <title>CHANGELOG</title>
+      <link>https://huachengzhou.github.io/studyDocument/post/uuid_t_jquery-cookie_changelog/</link>
+      <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://huachengzhou.github.io/studyDocument/post/uuid_t_jquery-cookie_changelog/</guid>
+      <description>HEAD 1.4.0 Support for AMD. Removed deprecated method $.cookie(&#39;name&#39;, null) for deleting a cookie, use $.removeCookie(&#39;name&#39;). $.cookie(&#39;name&#39;) now returns undefined in case such cookie does not exist (was null). Because the return value is still falsy, testing for existence of a cookie like if ( $.cookie(&#39;foo&#39;) ) keeps working without change. Renamed bower package definition (component.json -&amp;gt; bower.json) for usage with up-to-date bower. Badly encoded cookies no longer throw exception</description>
+    </item>
+    
+    <item>
+      <title>CONTRIBUTING</title>
+      <link>https://huachengzhou.github.io/studyDocument/post/uuid_t_bootstrap-switch_contributing/</link>
+      <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://huachengzhou.github.io/studyDocument/post/uuid_t_bootstrap-switch_contributing/</guid>
+      <description>If you want help us to fix bugs or add a extension please use our develop branch https://github.com/nostalgiaz/bootstrap-switch/tree/develop First step: Please merge your branch develop with nostalgiaz/bootstrap-switch/tree/develop second step: Work in the branch develop for fixes third step: regularly reviews the branch develop for updates and then merge this with your branch develop fourth step: When you&amp;rsquo;re done in your branch send us a PR to merge the two branches</description>
+    </item>
+    
+    <item>
+      <title>CONTRIBUTING</title>
+      <link>https://huachengzhou.github.io/studyDocument/post/uuid_t_jquery-cookie_contributing/</link>
+      <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://huachengzhou.github.io/studyDocument/post/uuid_t_jquery-cookie_contributing/</guid>
+      <description>##Issues Report issues or feature requests on GitHub Issues. If reporting a bug, please add a simplified example. ##Pull requests - Create a new topic branch for every separate change you make. - Create a test case if you are fixing a bug or implementing an important feature. - Make sure the build runs successfully. Development ###Tools We use the following tools for development: Qunit for tests. NodeJS required to</description>
+    </item>
+    
+    <item>
+      <title>CONTRIBUTING</title>
+      <link>https://huachengzhou.github.io/studyDocument/post/uuid_t_select2_contributing/</link>
+      <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://huachengzhou.github.io/studyDocument/post/uuid_t_select2_contributing/</guid>
+      <description>Contributing to Select2 Looking to contribute something to Select2? Here&amp;rsquo;s how you can help. Please take a moment to review this document in order to make the contribution process easy and effective for everyone involved. Following these guidelines helps to communicate that you respect the time of the developers managing and developing this open source project. In return, they should reciprocate that respect in addressing your issue or assessing patches</description>
+    </item>
+    
+    <item>
+      <title>DOS &gt; basic</title>
+      <link>https://huachengzhou.github.io/studyDocument/post/uuid_t_windows_dos_basic/</link>
+      <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://huachengzhou.github.io/studyDocument/post/uuid_t_windows_dos_basic/</guid>
+      <description>DOS基本命令 wing+r ==&amp;gt; cmd 进入dos控制台 打开屏幕键盘 C:\Users\noatn&amp;gt;osk; dos各种操作查看参数用法 command params ==? command /? C:\Users\noatn&amp;gt;cd /? 显示当前目录名或改变当前目录。 CHDIR [/D] [drive:][path] CHDIR [..] CD [/D] [drive:][path] CD [..]</description>
+    </item>
+    
+    <item>
+      <title>DOS &gt; file</title>
+      <link>https://huachengzhou.github.io/studyDocument/post/uuid_t_windows_dos_file/</link>
+      <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://huachengzhou.github.io/studyDocument/post/uuid_t_windows_dos_file/</guid>
+      <description>DOS基本文件操作命令 wing+r ==&amp;gt; cmd 进入dos控制台 D: 进入D盘 cd命令 CD命令是更改目录命令 如果要进入D盘不用这个命令直接输入 D: 回车 即可 例如: C:\Users\HP&amp;gt;D: D:\&amp;gt; D:\&amp;gt;dir</description>
+    </item>
+    
+    <item>
+      <title>DOS &gt; network</title>
+      <link>https://huachengzhou.github.io/studyDocument/post/uuid_t_windows_dos_network/</link>
+      <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://huachengzhou.github.io/studyDocument/post/uuid_t_windows_dos_network/</guid>
+      <description>DOS网络操作命令 netstat -ano (列出所有端口的情况) PS C:\Users\noatn&amp;gt; netstat -ano 活动连接 协议 本地地址 外部地址 状态 PID TCP 0.0.0.0:135 0.0.0.0:0 LISTENING 1028 TCP 0.0.0.0:445 0.0.0.0:0 LISTENING 4 TCP 0.0.0.0:1024 0.0.0.0:0 LISTENING 852 TCP 0.0.0.0:1025 0.0.0.0:0 LISTENING 2232 TCP 0.0.0.0:3306 0.0.0.0:0 LISTENING 3672 TCP 0.0.0.0:5040</description>
+    </item>
+    
+    <item>
+      <title>FTP</title>
+      <link>https://huachengzhou.github.io/studyDocument/post/uuid_t_windows_ftp/</link>
+      <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://huachengzhou.github.io/studyDocument/post/uuid_t_windows_ftp/</guid>
+      <description>本地设置FTP服务器 步骤1：在计算机上打开“控制面板”，然后单击“程序和功能”。 步骤2：在“程序和功能”窗口中，单击“控制面板”窗口左侧的“</description>
+    </item>
+    
+    <item>
+      <title>GitHubPages绑定来自阿里云的域名</title>
+      <link>https://huachengzhou.github.io/studyDocument/post/uuid_t_problem_githubpages%E7%BB%91%E5%AE%9A%E6%9D%A5%E8%87%AA%E9%98%BF%E9%87%8C%E4%BA%91%E7%9A%84%E5%9F%9F%E5%90%8D/</link>
+      <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://huachengzhou.github.io/studyDocument/post/uuid_t_problem_githubpages%E7%BB%91%E5%AE%9A%E6%9D%A5%E8%87%AA%E9%98%BF%E9%87%8C%E4%BA%91%E7%9A%84%E5%9F%9F%E5%90%8D/</guid>
+      <description>原教程但是由于他使用的github的用户名做的域名映射器,这样不好的地方是有可能你使用自定义的方式建立github仓库名比如 English study,还</description>
+    </item>
+    
+    <item>
+      <title>Guava-common</title>
+      <link>https://huachengzhou.github.io/studyDocument/post/uuid_t_tool_guava-common/</link>
+      <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://huachengzhou.github.io/studyDocument/post/uuid_t_tool_guava-common/</guid>
+      <description>Guava 基于java1.6的类库集合的扩展项目 com.google.common.annotations：普通注解类型。 com.google.co</description>
+    </item>
+    
+    <item>
+      <title>IO</title>
+      <link>https://huachengzhou.github.io/studyDocument/post/uuid_t_tool_io/</link>
+      <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://huachengzhou.github.io/studyDocument/post/uuid_t_tool_io/</guid>
+      <description>org.apache.commons.io.FilenameUtils 文件名称操作 FilenameUtils.getExtension(fileName) 获取文件后缀 //text FilenameUtils.getName(fileName) 获取文件完整名称 //c.text FilenameUtils.getBaseName(fileName) 获取文件名称 //c FilenameUtils.getFullPath(fileName) 获取文件的完整路径 //D:\data String path = &amp;quot;D:\\data\\假设开发法土地</description>
+    </item>
+    
+    <item>
+      <title>Linux下设置和查看环境变量</title>
+      <link>https://huachengzhou.github.io/studyDocument/post/uuid_t_linux_linux%E4%B8%8B%E8%AE%BE%E7%BD%AE%E5%92%8C%E6%9F%A5%E7%9C%8B%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</link>
+      <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://huachengzhou.github.io/studyDocument/post/uuid_t_linux_linux%E4%B8%8B%E8%AE%BE%E7%BD%AE%E5%92%8C%E6%9F%A5%E7%9C%8B%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</guid>
+      <description>&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;||&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;- Linux的变量种类 按变量的生存周期来划分，Linux变量可分为两类： 1 永久的：需要修改配置文件，变量永久生效。 2 临时的：使用export</description>
+    </item>
+    
+    <item>
+      <title>Notepad&#43;&#43;安装</title>
+      <link>https://huachengzhou.github.io/studyDocument/post/uuid_t_linux_notepad&#43;&#43;%E5%AE%89%E8%A3%85/</link>
+      <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://huachengzhou.github.io/studyDocument/post/uuid_t_linux_notepad&#43;&#43;%E5%AE%89%E8%A3%85/</guid>
+      <description>Notepad++是一套非常有特色的自由软件的纯文字编辑器(许可证:GPL)。有完整的中文化接口及支持多国语言编写的功能(UTF8 技术)。 它</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu 16.04修改hosts</title>
+      <link>https://huachengzhou.github.io/studyDocument/post/uuid_t_linux_ubuntu-16.04%E4%BF%AE%E6%94%B9hosts/</link>
+      <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://huachengzhou.github.io/studyDocument/post/uuid_t_linux_ubuntu-16.04%E4%BF%AE%E6%94%B9hosts/</guid>
+      <description>IntelliJ IDE运行Tomcat报错解决办法的相关资料,出现“Unable to ping server at localhost:1099”错误解决方法，需要的朋友可以参考下 sudo</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu清理系统垃圾</title>
+      <link>https://huachengzhou.github.io/studyDocument/post/uuid_t_linux_ubuntu%E6%B8%85%E7%90%86%E7%B3%BB%E7%BB%9F%E5%9E%83%E5%9C%BE/</link>
+      <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://huachengzhou.github.io/studyDocument/post/uuid_t_linux_ubuntu%E6%B8%85%E7%90%86%E7%B3%BB%E7%BB%9F%E5%9E%83%E5%9C%BE/</guid>
+      <description>1，非常有用的清理命令： sudo apt-get autoclean &amp;ndash;清理旧版本的软件缓存 www.2cto.com sudo apt-get clean&amp;ndash;清理所有软件缓存 sudo apt-get autoremove&amp;nd</description>
+    </item>
+    
+    <item>
+      <title>VisualStudioCode过滤文件不显示某些文件</title>
+      <link>https://huachengzhou.github.io/studyDocument/post/uuid_t_visual_studio_code_visualstudiocode%E8%BF%87%E6%BB%A4%E6%96%87%E4%BB%B6%E4%B8%8D%E6%98%BE%E7%A4%BA%E6%9F%90%E4%BA%9B%E6%96%87%E4%BB%B6/</link>
+      <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://huachengzhou.github.io/studyDocument/post/uuid_t_visual_studio_code_visualstudiocode%E8%BF%87%E6%BB%A4%E6%96%87%E4%BB%B6%E4%B8%8D%E6%98%BE%E7%A4%BA%E6%9F%90%E4%BA%9B%E6%96%87%E4%BB%B6/</guid>
+      <description>Visual Studio Code 过滤文件 不显示某些文件 效果 过滤工程中显示的文件 不显示某些类型的文件或文件夹 菜单 File/Preferences/ 搜索file exclude 选中workspack页签 添加一个过滤规</description>
+    </item>
+    
+    <item>
+      <title>apache-common工具包</title>
+      <link>https://huachengzhou.github.io/studyDocument/post/uuid_t_tool_apache-common%E5%B7%A5%E5%85%B7%E5%8C%85/</link>
+      <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://huachengzhou.github.io/studyDocument/post/uuid_t_tool_apache-common%E5%B7%A5%E5%85%B7%E5%8C%85/</guid>
+      <description>Apache Commons 工具类介绍及简单使用 组件 功能介绍 BeanUtils Commons-BeanUtils 提供对 Java 反射和自省API的包装, 提供了对于JavaBean进行各种操作，克隆对象,属性等等. Betwixt XML</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,12 +1,12 @@
 ---
 title : 'CONTRIBUTING'
-date : '2021-02-14'
+date : '2021-02-15'
 draft : false
 tags : ["bootstrap-switch"]
 categories : ["bootstrap","index"]
 author : 'zch'
 description : '测试博客'
-lastmod : '2021-02-14'
+lastmod : '2021-02-15'
 ---
 
 If you want help us to fix bugs or add a extension please use our develop branch

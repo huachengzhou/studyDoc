@@ -1,12 +1,12 @@
 ---
 title : 'jsoup'
-date : '2021-02-14'
+date : '2021-02-15'
 draft : false
 tags : ["tool"]
 categories : ["java","index"]
 author : 'zch'
 description : '测试博客'
-lastmod : '2021-02-14'
+lastmod : '2021-02-15'
 ---
 
 # jsoup学习文档
@@ -313,4 +313,3 @@ Elements selects = body.select(".center div:eq(0) ul li:lt(3)"); //eq(0)选取�
 
 
 
-## [回到Java首页](../index.md)

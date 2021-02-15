@@ -1,12 +1,12 @@
 ---
 title : 'apache-common工具包'
-date : '2021-02-14'
+date : '2021-02-15'
 draft : false
 tags : ["tool"]
 categories : ["java","index"]
 author : 'zch'
 description : '测试博客'
-lastmod : '2021-02-14'
+lastmod : '2021-02-15'
 ---
 
 ## Apache Commons 工具类介绍及简单使用
@@ -395,4 +395,3 @@ org.apache.commons.collections4.CollectionUtils.addIgnoreNull(Collection<T> coll
 
 
 
-## [回到Java首页](../index.md)
