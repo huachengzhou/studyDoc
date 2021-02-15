@@ -2,6 +2,7 @@
 # If you want to see the full configuration, please check `full-config.toml` .
 # And see https://gohugo.io/getting-started/configuration/ .
 
+# baseURL = "https://huachengzhou.github.io/studyDocument/"
 baseURL = "http://localhost:1313/"
 title = "Jane-主题-Hugo"
 enableRobotsTXT = true
