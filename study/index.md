@@ -13,11 +13,11 @@
 #  [**web学习**](.././web/index.md)
 
 
-#  [**记忆法**](./memoryPath/memory.md)
+#  [**记忆法**](./自我提升/记忆.md)
 
-#  [**冥想**](./meditation/info.md)
+#  [**冥想**](./自我提升/冥想.md)
 
-#  [**学习方法**](./method/studyInfo.md)
+#  [**学习方法**](./自我提升/学习方法.md)
 
 #  [**英语**](./English/index.md)
 
