@@ -8,6 +8,7 @@
 |      web工具               |         [web工具](http://www.bejson.com/)                 |
 |      在线超级转换工具       |         [在线超级转换工具](https://www.wdku.net/)          |
 |      程序员在线工具        |         [在线超级转换工具](https://tool.lu/)               |
+|      图片转base64工具        |         [图片转base64工具](http://tool.chinaz.com/tools/imgtobase/)               |
 
 
 |     算法                                |                  链接                                         |
